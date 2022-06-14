@@ -10,7 +10,6 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-            	sh 'Hello,sh'
                 echo 'Hello world!' 
                 echo IsTest
             }
